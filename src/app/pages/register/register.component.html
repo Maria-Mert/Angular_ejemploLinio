@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login">Iniciar Sección</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/register">Crear Cuenta</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group row mb-3">
+            <label for="inputNombre" class="col-sm-3 col-form-label">Nombre</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" required>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="inputApellido" class="col-sm-3 col-form-label">Apellido</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" required>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="inputPassword" class="col-sm-3 col-form-label">Contraseña</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="inputTipoCedula" class="col-sm-3 col-form-label">Tipo de Cédula</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputTipoCedula" placeholder="Tipo de Cédula" required>
+            </div>
+          </div>
+          <div class="form-group row mb-3">
+            <label for="inputCedula" class="col-sm-3 col-form-label">Cédula de Ciudadanía</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputCedula" placeholder="Cédula de Ciudadanía" required>
+            </div>
+          </div>
+          <div class="form-group form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="checkboxDeclaro" required>
+            <label class="form-check-label" for="checkboxDeclaro">Declaro que he leído y autorizo el uso de mis datos personales de acuerdo a la Autorización y acepto los Términos y Condiciones de Linio.</label>
+          </div>
+          <div class="form-group form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="checkboxPrograma" required>
+            <label class="form-check-label" for="checkboxPrograma">Quiero acumular los puntos de mis compras, inscribiéndome al programa CMR Puntos. Autorizo el Tratamiento de mis Datos Personales y Acepto el Reglamento del programa.</label>
+          </div>
+          <button type="submit" class="btn btn-secondary btn-block mt-3">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </div>
